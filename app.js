@@ -1,3 +1,5 @@
+/* Created by GeekStar Codes */
+
 function setDeg() {
     var d = new Date();
     var hourDeg = document.getElementById("hour");
@@ -16,3 +18,8 @@ function setDeg() {
     minDeg.style.transform = "rotate(" + (mins * 6 - 6) + "deg)";
 }
 setInterval(setDeg, 1);
+
+/* 
+Subscribe to my YouTube channel for more cool stuffs.
+Link: https://t2m.io/pXUSmgPx 
+*/
